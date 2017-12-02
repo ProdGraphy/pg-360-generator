@@ -1,0 +1,300 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+/* Tooltip text */
+
+.pg360_tooltip .pg360_tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+/* Tooltip arrow */
+
+.pg360_tooltip .pg360_tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.pg360_tooltip:hover .pg360_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/**Custom icons style */
+
+@font-face {
+    font-family: 'ProdGraphy-Icons';
+    src: url('fonts/ProdGraphy-Icons.ttf?e1vnx8') format('truetype'), url('fonts/ProdGraphy-Icons.woff?e1vnx8') format('woff'), url('fonts/ProdGraphy-Icons.svg?e1vnx8#ProdGraphy-Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ProdGraphy-Icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.prodgraphy-fullscreen:before {
+    content: "\e989";
+}
+
+.prodgraphy-play:before {
+    content: "\ea1c";
+}
+
+.prodgraphy-pause:before {
+    content: "\ea1d";
+}
+
+
+/*******************************************/
+
+.more-option {
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+input[type=number] {
+    width: 60px;
+}
+
+.pg360-row-one {
+    display: inline-block;
+    min-width: 450px;
+}
+
+.pg360-row-one .pg360-field {
+    font-weight: 600;
+}
+
+.pg360-row-two {
+    margin-left: 30px;
+    vertical-align: top;
+    border-left: solid 2px grey;
+    padding-left: 20px;
+}
+
+.pg360-row-two .pg360-field {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.pg360-danger {
+    color: #dd2424;
+    font-weight: 600;
+}
+
+.pg360_p {
+    max-width: 700px;
+    font-size: 14px;
+}
+
+.pg360-field {
+    text-align: left;
+    padding: 10px 0px 10px 0;
+}
+
+.pg360-field .vl {
+    display: none;
+}
+
+.pg360-field .hintchkbx {
+    margin-top: 5px;
+}
+
+.pg360_tip {
+    color: #0c6294;
+}
+
+.input_label {
+    margin-top: 5px;
+    width: 200px;
+    line-height: 1.3;
+    float: left;
+    width: 200px;
+    display: block;
+    color: #23282d;
+}
+
+.input_label .user_input {
+    display: inline-block;
+}
+
+.user_input {
+    border-radius: 10px;
+}
+
+#next1 {
+    margin: 25px;
+}
+
+#next2 {
+    margin: 25px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+iframe {
+    display: none;
+}
+
+#pg360Dz {
+    display: none;
+}
+
+#pg360Form {
+    display: block;
+}
+
+.reel-preloader {
+    background-color: #FF4400;
+    color: #FF4400;
+}
+
+.pg360_edit {
+    color: #0073aa;
+}
+
+.pg360_edit_div {
+    display: none;
+}
+
+.pg360_delete {
+    color: darkred;
+}
+
+
+/**
+* Help page 
+*/
+
+.pg360-logo {
+    display: inline-block;
+    float: left;
+}
+
+#slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.pg360_control {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pg360_insert_chkbx {
+    padding-left: 20px;
+}
+
+.pg360_watermark {
+    position: relative;
+    bottom: 2.5em;
+    right: -1em;
+}
+
+.pg360_upload_icon {
+    color: orangered;
+}
+
+
+/* Drop Zone style customization*/
+
+.dz-filename {
+    color: green;
+}
+
+.dz-size {
+    color: green;
+}
+
+.dz-progress {
+    color: green;
+}
+
+
+/* 
+ * tool tip
+ */
+
+.pg360_tooltip {
+    position: relative;
+    display: inline-block;
+    /* If you want dots under the hoverable text */
+}

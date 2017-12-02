@@ -1,0 +1,31 @@
+/*
+*style thickbox apear when click pg360 media button:
+*/
+
+.pg360_bottom_toolBar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 80;
+    background: #f3f3f3;
+    border-top: 1px solid #ddd;
+}
+
+.pg360_ControlButtons {
+    position: absolute;
+    width: 170px;
+    text-align: center;
+    right: 0;
+    margin-top: 15px;
+}
+
+#pg360Insert {
+    margin-right: 15px;
+}
+
+.pg360_mainContent {
+    overflow: auto;
+    outline: 0px;
+}
