@@ -1,4 +1,5 @@
-= 360 Generator 
+360 Generator
+=============================
 Contributors: ibrahimezzat
 Donate link: http://www.prodgraphy.com
 Tags: 360, 360 spin, responsive imaging, watermark images, dynamic images, image plugin, media library, image editor ,360 eCommerce ,3D imaging,360 product ,360 photography ,responsive ,gallery ,image ,360 photo ,360 picture ,photography ,interactive ,prodgraphy ,pg360 
