@@ -39,10 +39,6 @@ Free and paid plan or even customize one are available to fit your business need
 --------------------
 Free and paid plan or even customize one are available to fit your business needs  with [www.ProdGraphy.com](www.ProdGraphy.com)
 
-* Free Plan $0 
-* Premium Plan $29
-* Customize Plan -> we have the flexibility to make your custom plan only contact us to make custom plan fit your business needs .
-
  Technical Support /Feedback 
 ----------------------------
 we offer not just plugin ,it comes with the technical support.
