@@ -1,18 +1,10 @@
 360 Generator
 =============================
-Contributors: ibrahimezzat
-Donate link: http://www.prodgraphy.com
-Tags: 360, 360 spin, responsive imaging, watermark images, dynamic images, image plugin, media library, image editor ,360 eCommerce ,3D imaging,360 product ,360 photography ,responsive ,gallery ,image ,360 photo ,360 picture ,photography ,interactive ,prodgraphy ,pg360 
-Requires at least: 3.3
-Tested up to: 4.9
-Stable tag: 4.9
-Requires PHP: 5.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Easy way to make interactive 360° from set of photos ,also provides many options like size control,color filters ,custom cursor shape ...etc
 
-== Description ==
+Description 
+------------------
 
 "360 Generator" WordPress Plugin Take your business to whole new level of professionalism and increase your site traffic. 
 
@@ -39,7 +31,7 @@ see the all available features from [here](www.prodgraphy.com)
 
 Free and paid plan or even customize one are available to fit your business needs  with [www.ProdGraphy.com](www.ProdGraphy.com)
 
-= 360° Rotation =
+= 360° Rotation 
 
 "ProdGraphy 360° Generator" provides amazing 360° rotation in just 2 easy clicks and make you fully control all parameters  also provide the possibility of multi row (3D) view only just from set of photo.
 
